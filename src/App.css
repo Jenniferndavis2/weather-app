@@ -1,0 +1,64 @@
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 100vw;
+  height: 100vh;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  height: 90%;
+  background: white;
+}
+
+.title-label {
+  display: flex;
+  flex-direction: column;
+  margin: 15px;
+}
+
+#weather-items-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  list-style-type: none;
+  height: 70vh;
+  width: 100%;
+  padding: 0;
+}
+
+.weather-items {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  height: 22vh;
+  width: 30vw;
+  margin: 5px;
+  line-height: 0;
+  background: rgb(192, 236, 255);
+}
+
+.small-icon {
+  width: 48px;
+  height: 48px;
+  margin-top: 0;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
